@@ -2,7 +2,7 @@
 /**
 *
 * Board Rules extension for the phpBB Forum Software package.
-* Estonian translation by phpBBeesti.com <http://www.phpbbeesti.com>
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -39,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP modules => AJP Laiendused
+	// ACP modules
 	'ACP_BOARDRULES'				=> 'Foorumi reeglid',
 	'ACP_BOARDRULES_MANAGE'			=> 'Halda reegleid',
 	'ACP_BOARDRULES_SETTINGS'		=> 'Reeglite seaded',
 
-	// ACP Logs => AJP Logid
+	// ACP Logs
 	'ACP_BOARDRULES_SETTINGS_LOG'	=> '<strong>Foorumi reeglite seaded on muudetud</strong>',
 	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Foorumi reeglite teavitus on saadetud kõigile liikmetele</strong>',
 ));
